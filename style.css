@@ -28,6 +28,7 @@ nav li{
 
 nav li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
     list-style: none;
     font-size: 1em;
     display:flex;
@@ -93,4 +94,54 @@ nav div ul{
 }
 .nav__logo{
 border-width:0;
+}
+
+/* HEADER */
+
+header{
+    margin-left: 10pc;
+    margin-top:5pc;
+    display:flex;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size:2em;
+    color: rgb(76, 76, 76);
+    margin-left:2pc;
+    margin-top:1pc;
+}
+header p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    word-spacing:0.25em;
+    font-size:0.9em;
+    color:rgb(45, 45, 45);
+    margin-left:2pc;
+    margin-top:1pc;
+    margin-right:5pc;
+    z-index: 10;
+}
+
+header p span{
+    color: #004792cb;
+
+}
+#header__RYM{
+    background: -webkit-linear-gradient(0deg, rgba(3, 44, 193, 0.784) 0%, rgba(88, 160, 247, 0.765) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
+
+#header__socials{
+    display:flex;
+    margin-right: 10pc;
+    margin-top: 1pc;
+}
+
+.header__socialIcons{
+    height:2pc;
+    padding: 0 1pc 0 1pc;
 }
