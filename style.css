@@ -9,12 +9,16 @@ nav{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    position:sticky;
     flex-grow:1;
     border-bottom-width: 0.1pc;
     border-bottom-color: #f0ecf4;
     border-bottom-style:solid;
     box-shadow:0 0 5px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 }
 
 nav ul{
@@ -144,4 +148,197 @@ header p span{
 .header__socialIcons{
     height:2pc;
     padding: 0 1pc 0 1pc;
+}
+
+/* Sub-header */
+#subheader {
+    margin-top: 5pc;
+    margin-left:10pc;
+    width:80pc;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #b5b5b5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #b5b5b5;
+}
+
+#subheader ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0.75pc 0 0.75pc 0;
+    width:60pc;
+}
+
+#subheader li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    font-weight: bold;
+    padding: 0 0.5pc 0 0.5pc;
+}
+
+.subheader__numbers{
+    color:slategray;
+}
+
+/* Main content */
+
+summary{
+    margin-left:5pc;
+    margin-top:5pc;
+}
+
+h2{
+    color:#437bca;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Reviews */
+.review{
+    margin-left: 5pc;
+    margin-top:2.5pc;
+    display:flex;
+    flex-direction: row;
+    background-color: #d7d7d747;
+    flex-basis:60pc;
+    max-width: 60pc;
+}
+.review div{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.review__left div{
+    display:flex;
+    flex-direction: column;
+    width: 20pc
+}
+
+.review__right{
+    display:flex;
+    flex-direction: column;
+    width:40pc;
+}
+
+.review__art{
+    scale:auto;
+    height:300px;
+    padding: 2pc 0 0 2pc;
+}
+
+.review__igd{
+
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+    font-weight: lighter;
+    padding:2pc 0 1pc 2pc;
+    color:#414141;
+}
+
+h3 span{
+    font-weight:bold;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding:0.5pc 0 0 2pc;
+    color:#414141;
+}
+
+.review__genresbig{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding:0.5pc 0 0 2pc;
+    color:#595959;
+}
+
+.review__genressmall{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    padding:0.5pc 0 0 2pc;
+    color:#7f7f7f;
+}
+
+.review__play{
+    border: none;
+}
+.review__body{
+    margin-left: 2pc;
+    margin-top: 2pc;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    padding:0.5pc 0 0 2pc;
+    color:#184c94;
+    width:25pc;
+}
+
+h5 span{
+    font-size: 1.4pc;
+    color:#777777;
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+    padding:1pc 0 0 2pc;
+    color:#124287;
+}
+.review__author{
+    padding: 1pc 0 0 2pc;
+}
+.review__author img{
+    height:2.5pc;
+    width:2.5pc;
+    border-radius: 0.2pc;
+}
+.review__author div span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75em;
+    padding: 0.75pc 0 0 1pc;
+}
+.review__author div span span{
+    color: #184c94;
+    font-size:1em;
+    font-weight:bold;
+    padding:0;
+}
+.review__right div div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.review__stars{
+    width: 90px;
+    height: 16px;
+    padding: 1pc 0 0 2pc;
+}
+
+.review__title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 0.75pc 0 0 2pc;
+    color:#414141;
+    font-weight:bold;
+}
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    padding: 0.75pc 0 0 2pc;
+    color:#414141;
+    width:30pc;
+    word-spacing:0.2pc;
 }
