@@ -203,6 +203,7 @@ h2{
     background-color: #d7d7d747;
     flex-basis:60pc;
     max-width: 60pc;
+    padding-bottom: 2pc;
 }
 .review div{
     display:flex;
@@ -268,6 +269,24 @@ h4{
 
 .review__play{
     border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight:bolder;
+    width:20pc;
+    background-color: #b2d1fb69;
+    border-radius: 0.25pc;
+    color:rgb(83, 83, 83);
+    margin-left:2pc;
+    margin-top: 1pc;
+    height:2.5pc;
+}
+
+.review__play:hover{
+    background-color: #a5a5a540;
+}
+
+.review__play i{
+    padding-right:0.5pc;
 }
 .review__body{
     margin-left: 2pc;
@@ -341,4 +360,36 @@ article {
     color:#414141;
     width:30pc;
     word-spacing:0.2pc;
+}
+
+/* Features */
+
+#features{
+    position:absolute;
+    right:1pc;
+    top:40pc;
+    height:30pc;
+}
+#features div{
+    max-width: 24pc;
+    height: 24pc;
+}
+
+#features h6{
+    position:relative;
+    top:-2pc;
+    padding: 0 0 1pc 0;
+}
+
+.features__main img{
+    position:relative;
+    top:-2pc;
+    width:24pc;
+}
+.features__sub{
+    padding:0;
+}
+.features__sub img{
+    width:7.5pc;
+    padding:0.15pc;
 }
